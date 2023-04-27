@@ -6,4 +6,15 @@ Window {
     height: 480
     visible: true
     title: qsTr("Hello World")
+
+
+        Image {
+            id: name
+            anchors.fill: parent
+            source: "images/test.png"
+            fillMode: Image.PreserveAspectFit
+        }
+
+
+
 }
