@@ -10,7 +10,6 @@ Window {
 
     Image {
         id: img
-        //anchors.centerIn: parent
         source: "images/test.png"
         fillMode: img.PreserveAspectFit
     }
